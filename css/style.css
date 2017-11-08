@@ -1,0 +1,241 @@
+*{
+    MARGIN:0;
+    PADDING:0;
+}
+
+.row{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+BODY
+{
+    font-family:tahoma;
+}
+
+.hero{
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(http://www.readersdigest.ca/wp-content/uploads/2016/09/diabetic-diet-tips-mediterranean-diet.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color:white;
+}
+
+.main-nav{
+    list-type:none;
+    float:right;
+    margin-top:60px;
+}
+
+.main-nav li{
+    display:inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a{
+    color:white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+
+}
+
+.main-nav li a:hover{
+    color:#e27e22;
+    border-bottom:2px solid #e27e22;
+    transition:all 0.3s ease-in;
+    padding:11px 0;
+}
+
+.logo img{
+    height:100px;
+    float:left;
+    margin-top:30px;
+}
+
+.btn{
+    border:1px solid #e27e22;
+    padding:10px 30px;
+    color:#e27e22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+.button-awesome{
+    margin-top:40px;
+}
+.btn-half,.btn-full:hover{
+    background-color: #e27e22;
+    color:white;
+    transition:all 0.2s ease-in;
+}
+
+.features h3{
+    margin-top:80px;
+    margin-top:30px;
+}
+
+h3:after{
+    width:100px;
+    height:2px;
+    background-color: #e27e22;
+    display:block;
+    content:" ";
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.copy{
+    width:70%;
+    margin-left: 15%;
+    margin-bottom:20px;
+}
+
+.arranging{
+    text-align: justify;
+}
+
+.features i{
+    font-size:50px;
+    color: #e27e22;
+    margin-left:35%;
+}
+
+.features h4{
+    margin-left:40px;
+}
+
+.meal-showcase{
+    list-style: none;
+    width:100%;
+}
+
+.meal-showcase li{
+    display: block;
+    width: 100%;
+    float:left;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img{
+    width:100%;
+    height:auto;
+    transform: scale(1.15);
+    transition:all 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.05);
+}
+
+.meal{
+    margin-top:80px;
+}
+
+.pic img{
+    width:40%;
+    margin-left:50%;
+    margin-top:50px;
+}
+
+.works-step{
+    margin-top:50px;
+}
+
+.works-step div{
+    border:1px solid #e27e22;
+    display: block;
+    border-radius:50px;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.works-step img{
+    height:50px;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+.clearfix{
+    zoom:1;
+}
+.clearfix:after{
+    visibility: hidden;
+    content:".";
+    height:0;
+    display:block;
+    clear:both;
+}
+
+.mobile{
+    margin-top:80px;
+}
+
+.cities{
+    margin-top:100px;
+}
+
+.cities img{
+    width:100%;
+    margin-top:50px;
+}
+.cities i{
+    color:#e27e22;
+}
+.cities h4{
+    margin:15px 0 15px 0
+}
+
+.testimoniols{
+    margin:80px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(http://thewallpaper.co/wp-content/uploads/2016/03/superb-seaside-restaurant-full-hd-wallpaper-for-desktop-background-download-restaurant-pictures-free-download-wallpaper-amazing-wallpapers-widescreen-1920x1080-768x432.jpg);
+    padding-top:80px;
+    padding-bottom:60px;
+    color:white;
+    background-attachment: fixed;
+}
+.testimoniols cite img{
+    width:70px;
+    height:70px;
+    border-radius:50px;
+    margin-right: 10px;
+}
+.testimoniols p{
+    color:white;
+    line-height: 25px;
+    text-align: justify;
+    margin-top:40px;
+}
+
+.btn-block{
+    background-color: #e27e22;
+    color:white;
+    border-radius: 4px;
+    margin-top:20px;
+}
+.gap{
+    margin-top:40px;
+}
+.form{
+    margin-top:40px;
+}
