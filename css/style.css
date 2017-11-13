@@ -10,7 +10,7 @@
 
 BODY
 {
-    font-family:tahoma;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero{
@@ -209,22 +209,45 @@ h3:after{
 .testimoniols{
     margin:80px;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(http://thewallpaper.co/wp-content/uploads/2016/03/superb-seaside-restaurant-full-hd-wallpaper-for-desktop-background-download-restaurant-pictures-free-download-wallpaper-amazing-wallpapers-widescreen-1920x1080-768x432.jpg);
+    background-size:cover;
     padding-top:80px;
     padding-bottom:60px;
     color:white;
     background-attachment: fixed;
 }
-.testimoniols cite img{
+blockquote p:before{
+    content:"\201C";
+    font-size:500%;
+    display:block;
+    position:absolute;
+    top:4px;
+    left:0;
+}
+.people{
+    margin-top:40px;
+}
+blockquote{
+    padding:2%;
+    font-style:italic;
+    line-height:145%;
+    position:relative
+}
+cite{
+    font-size:90%;
+    margin-top:25px;
+    display:block;
+}
+cite img{
     width:70px;
     height:70px;
-    border-radius:50px;
+    border-radius:50%;
     margin-right: 10px;
+    vertical-align:middle;
 }
 .testimoniols p{
     color:white;
     line-height: 25px;
     text-align: justify;
-    margin-top:40px;
 }
 
 .btn-block{
@@ -233,6 +256,65 @@ h3:after{
     border-radius: 4px;
     margin-top:20px;
 }
+.line{
+    padding:2rem;
+}
+.section-plan{
+   background-color:#f4f4f4;
+   margin-top:40px;
+   margin-bottom:40px;
+}
+.plan-box{
+   margin-top:2rem;
+   margin-bottom: 2rem;
+   background-color:white;
+   border-radius:5px;
+   width:90%;
+   margin-left:5%;
+   box-shadow: 0 2px 1px #e3e3e3;
+   }
+.plan-box div{
+    padding:15px;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+.plan-box div:first-child{
+    background-color:#fcfcfc;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.plan-box div:last-child{
+    text-align:center;
+    border:0;
+}
+.plan-price{
+    font-size:220%;
+    margin-bottom:10px;
+    font-weight:100;
+    color:#e27e22;
+    }
+.plan-price-meal{
+    font-size:80%
+}
+.plan-price span{
+    font-size:30%;
+    font-weight300;
+}
+.plan-box ul{
+    list-style:none;
+}
+.plan-box ul li{
+    padding:5px 0;
+}
+.plan-box ul li i{
+    color:#e27e22;
+    padding-right:0.5rem
+
+}
+
+
+
+
 .gap{
     margin-top:40px;
 }
