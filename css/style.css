@@ -26,15 +26,13 @@ li a:hover{
 
 .hero{
     position:absolute;
-    width:1140px;
     top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    left:16%;
 }
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(http://www.readersdigest.ca/wp-content/uploads/2016/09/diabetic-diet-tips-mediterranean-diet.jpg);
-    height:100vh;
+    height:120vh;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -161,6 +159,7 @@ h3:after{
     margin: 0;
     overflow: hidden;
 }
+.features i:hover { color:#e64a0e;cursor:pointer; }
 
 .meal-photo img{
     width:100%;
@@ -178,9 +177,8 @@ h3:after{
 }
 
 .pic img{
-    width:40%;
-    margin-left:50%;
-    margin-top:50px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .works-step{
@@ -229,6 +227,7 @@ h3:after{
 }
 .cities i{
     color:#e27e22;
+    padding-right: 0.6em;
 }
 .cities h4{
     margin:15px 0 15px 0
@@ -369,6 +368,10 @@ cite img{
 .contact-form input{
     margin:0.4rem 0 0.4rem 0;
 }
+
+.contact-form input:focus{
+    border-color:#e27e22;
+}
 input[type=text],
 input[type=email],
 select,
@@ -378,7 +381,7 @@ textarea{
     border-radius:3px;
     border:1px solid #ccc;
 }
-textare{
+textarea{
     height:150px;
 }
 input[type=checkbox]{
