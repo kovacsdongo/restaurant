@@ -43,11 +43,11 @@ h1{
 }
 
 .main-nav{
-    list-type:none;
-    float:right;
     margin-top:60px;
 }
-
+.main-nav ul{
+    text-align: right; width: 100%;
+}
 .main-nav li{
     display:inline-block;
     margin-left: 20px;
